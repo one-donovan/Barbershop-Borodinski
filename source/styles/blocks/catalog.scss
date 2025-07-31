@@ -1,0 +1,300 @@
+.inner-header {
+  margin-bottom: 32px;
+}
+
+.inner-header-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #242424;
+  list-style-type: none;
+}
+
+/* Link */
+.breadcrumbs-link {
+  color: inherit;
+}
+
+.breadcrumbs-item {
+  position: relative;
+  margin-right: 32px;
+  list-style-type: none;
+}
+
+.breadcrumbs-item::after {
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  width: 8px;
+  height: 8px;
+  background-color: #242424;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.breadcrumbs-item:last-child::after {
+  content: none;
+}
+
+
+/* Title */
+.catalog-filter-group {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  border: none;
+}
+
+.catalog-filter-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+.catalog-filter-label {
+  display: flex;
+  margin-right: 5px;
+}
+
+.sorting-container {
+  display: flex;
+  margin-bottom: 16px;
+  padding: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.sorting-type {
+  margin-right: auto;
+}
+
+
+.sorting-container .button {
+  width: 56px;
+  height: 44px;
+  outline: 5px solid #ff6347;
+  outline-offset: -5px;
+}
+
+.card-grid-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 44px;
+  background-color: #000000;
+}
+
+.card-grid-toggle:hover {
+  background-color: #814b18;
+}
+
+.card-grid-toggle:focus {
+  outline: 2px solid #dbb590;
+  background-color: #4e2e0e;
+}
+
+.card-grid-toggle:hover svg,
+.card-grid-toggle:focus svg {
+  fill: #ffffff;
+}
+
+.card-grid-toggle svg {
+  fill: #ffffff;
+}
+
+.card-grid-toggle-current {
+  background-color: #ffffff;
+}
+
+.card-grid-toggle-current:hover {
+  background-color: #000000;
+}
+
+.card-grid-toggle-current svg {
+  fill: #000000;
+}
+
+.card-grid-toggle-current:hover svg {
+  fill: #ffffff;
+}
+
+
+/* LIST */
+.product-list {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  gap: 20px;
+}
+
+/* Light */
+.button-light {
+  color: #242424;
+  /* background-color: #ffffff; */
+}
+
+/* Item */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.product-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product-card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card-title-link {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Link */
+.product-card-link {
+  text-decoration: none;
+}
+
+/* Title */
+.product-card-title {
+  font-weight: 700;
+  color: #242424;
+}
+
+/* Price */
+.product-card-price {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  color: #814b18;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.product-card-button {
+  margin-top: auto;
+}
+
+/* Link */
+
+.catalog-products {
+  display: flex;
+}
+
+.catalog-filter {
+  width: 220px;
+  margin-right: 20px;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+}
+
+.catalog-right-column {
+  width: 700px;
+}
+
+/* Pagination */
+
+.pagination-container {
+  display: flex;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 44px;
+  padding: 14px 20px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.pagination-link:hover {
+  background-color: #814b18;
+}
+
+.pagination-link:focus {
+  outline: 2px solid #dbb590;
+  background-color: #4e2e0e;
+}
+
+/* Show more */
+.pagination-show-more {
+  margin-left: auto;
+}
+
+.pagination-current {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.pagination-prev,
+.pagination-next {
+  position: relative;
+}
+
+.pagination-prev {
+  background-image: url("/../images/arr.svg");
+  background-position: center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+
+.pagination-next {
+  background-image: url("/../images/arr.svg");
+  transform: rotate(180deg);
+  background-position: center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+.pagination-disabled {
+  background-color: #595959;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* Without background */
+.pagination-clear {
+  background-color: transparent;
+}

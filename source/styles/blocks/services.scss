@@ -1,0 +1,53 @@
+.services {
+  width: 390px;
+  text-transform: uppercase;
+}
+
+.services-title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.services-list {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  list-style-type: none;
+}
+
+.services-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.services-item::before {
+  flex-grow: 1;
+  order: 2;
+  margin-right: 16px;
+  margin-left: 16px;
+  border-bottom: 2px dotted rgba(89, 89, 89, 0.5);
+  content: "";
+}
+
+.services-name {
+}
+
+.services-price {
+  order: 3;
+  color: #af7842;
+}
+
+.button {
+}
+
+.button-all {
+}

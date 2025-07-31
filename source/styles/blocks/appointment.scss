@@ -1,0 +1,122 @@
+.appointment {
+  width: 430px;
+}
+
+.appointment-title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* List */
+.appointment-info {
+  color: #595959;
+}
+
+.appointment-form {
+  display: grid;
+  grid-template-columns: 114px 74px 208px;
+  gap: 19px 17px;
+}
+
+.appointment-form-date {
+}
+
+.form-label {
+  margin-bottom: 8px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-label-icon {
+  position: relative;
+  padding-right: 16px;
+}
+
+.appointment-form-time {
+}
+
+.appointment-form-phone {
+}
+
+.appointment-form .info {
+  display: none;
+}
+
+.appointment-form-name {
+  grid-column: 1 / -1;
+}
+
+.appointment-submit {
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin-top: 9px;
+}
+
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.field {
+  margin: 0;
+  padding: 8px 14px;
+  font: inherit;
+  font-weight: 700;
+  background-color: #ffffff;
+  border: 2px solid #242424;
+}
+
+
+/* Hover, Focus */
+.field:hover,
+.field:focus {
+  border-color: #af7842;
+}
+
+.field:focus {
+  outline: 2px solid #dbb590;
+}
+
+/* Disabled */
+.field:disabled,
+.field:disabled:hover {
+  color: #595959;
+  background-color: #dbb590;
+  border-color: #595959;
+}
+
+/* Invalid */
+.field:invalid {
+  box-shadow: none;
+}
+
+.field:focus:invalid {
+  border-color: #ea5454;
+}
+
+/* Placeholder */
+.field::placeholder {
+  color: #dbdbdb;
+  opacity: 1;
+}
+
+.info {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  background-image: url("../images/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

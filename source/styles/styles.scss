@@ -1,0 +1,32 @@
+/* GLOBAL */
+@import "./common/variables.scss";
+@import "./common/global.scss";
+@import "./common/fonts.scss";
+
+/* BLOCKS */
+@import "./blocks/page-body.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/header.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/main-index.scss";
+@import "./blocks/main-inner.scss";
+@import "./blocks/page-container.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/services.scss";
+@import "./blocks/gallery.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/appointment.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/footer-contact.scss";
+@import "./blocks/newsletter.scss";
+@import "./blocks/footer-social.scss";
+@import "./blocks/index-columns.scss";
+@import "./blocks/button.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/range.scss";
+@import "./blocks/checkbox.scss";
+@import "./blocks/select.scss";
+@import "./blocks/popover.scss";
+@import "./blocks/tooltip.scss";
+@import "./blocks/modal.scss";

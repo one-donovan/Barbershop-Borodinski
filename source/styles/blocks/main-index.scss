@@ -1,0 +1,22 @@
+.main-index {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("../../images/bg-desktop@2x.webp");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.main__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+
+.main-container {
+  flex-grow: 1;
+  padding-top: 64px;
+  padding-bottom: 60px;
+}
+

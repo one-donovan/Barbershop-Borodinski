@@ -1,0 +1,36 @@
+.page-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #242424;
+  background-image: url("../../images/pattern-bg-black@2x.webp");
+  background-repeat: repeat;
+}
+
+.page__footer-container {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+
+.page-footer-title {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.page-footer a {
+  color: #ffffff;
+}
+
+.page-footer .htmlacademy-link {
+  font-size: 14px;
+  color: #dbb590;
+}

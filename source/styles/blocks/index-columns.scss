@@ -1,0 +1,31 @@
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 40px;
+  color: #242424;
+  background-color: #fbf7f4;
+  background-image: url("../../images/pattern-bg-white@2x.webp");
+  position: relative;
+}
+
+.index-columns::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  width: 0;
+  border-right: 1px dashed #595959;
+}
+
+.index-columns:first-of-type::after {
+  left: 470px;
+}
+
+.index-columns:last-of-type::after {
+  left: 430px;
+}
+
+.index-columns:last-child {
+  margin-bottom: 0;
+}
