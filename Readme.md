@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Den Ganshin](https://up.htmlacademy.ru/adaptive-individual/2/user/2426485).
-* Наставник: `Неизвестно`.
+* Студент: [Roman Teleign](https://up.htmlacademy.ru/adaptive-individual/2/user/2426485).
+* Наставник: `Антон Варнавский`.
 
 ---
 
