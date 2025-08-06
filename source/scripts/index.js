@@ -2,18 +2,6 @@
 const button = document.querySelector('.navigation__button-bag');
 const popover = document.querySelector('.popover');
 
-// Навешиваем на кнопку обработчик клика
-
-/* button.onclick = function (evt) {
-  // Отменяем переход по ссылке
-
-  evt.preventDefault();
-  // показываем поповер
-
-  popover.style.display = 'block';
-
-}; */
-
 function openPopover() {
   popover.style.display = 'block';
 
@@ -43,4 +31,26 @@ document.addEventListener('click', (event) => {
   }
 });
 
+
+// модальное окно
+const popup = document.querySelector('.modal-container');
+const openPopupButton = document.querySelector('.navigation-link-login');
+const closePopupButton = popup.querySelector('.modal-close-button');
+
+// Открытие модального окна
+openPopupButton.addEventListener('click', (evt) => {
+  evt.preventDefault();
+  popup.classList.add('show'); // показываем окно
+});
+
+// Закрытие модального окна
+closePopupButton.addEventListener('click', () => {
+  popup.classList.remove('show'); // скрываем окно
+});
+
+popup.addEventListener('click', (evt) => {
+  if (evt.target === popup) {
+    popup.classList.remove('show');
+  }
+});
 
