@@ -1,6 +1,6 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Roman Teleign](https://up.htmlacademy.ru/adaptive-individual/2/user/2426485).
+* Студент: [Roman Telegin](https://up.htmlacademy.ru/adaptive-individual/2/user/2426485).
 * Наставник: `Антон Варнавский`.
 
 ---
